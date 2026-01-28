@@ -18,6 +18,24 @@ The system is **serverless and modular**, designed to be scalable and easy to ex
 
 ---
 
+## Project Demo
+
+A short demonstration of the system in action:
+
+<p align="center">
+  <a href=https://drive.google.com/file/d/1dMmCFeT0KSykX4wiJe0b0vVzeEDa0xtZ/view?usp=sharing target="_blank">Watch PDF Processing Short Demo</a>
+</p>
+
+<p align="center">
+  <a href=https://drive.google.com/file/d/1sNh82mfQXIxTgEH-liOtJPSNnU4iuxGP/view?usp=sharing target="_blank">Watch PDF Processing Full Project Showcase</a>
+</p>
+
+- Uploading a PDF triggers keyword extraction and language detection  
+- The Python client can request translations on-demand  
+- Results are stored in S3 and the database for easy access  
+
+---
+
 ## Functionalities & Components
 
 ### Keyword Extraction
@@ -42,20 +60,6 @@ The system is **serverless and modular**, designed to be scalable and easy to ex
 - Stores PDFs, keywords, users, and jobs  
 - Additional tables link PDFs and keywords, creating many-to-many relationships  
 - Structured for future feature extensions like keyword search
-
----
-
-## Demo
-
-A short demonstration of the system in action:
-
-[Watch PDF Processing Short Demo](short_project_demo.mp4)
-
-[Watch PDF Processing Full Project Showcase](full_project_showcase.mp4)
-
-- Uploading a PDF triggers keyword extraction and language detection  
-- The Python client can request translations on-demand  
-- Results are stored in S3 and the database for easy access  
 
 ---
 
